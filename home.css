@@ -1,0 +1,61 @@
+body {
+    margin-left: 12px;
+}
+
+/* counter */
+.count-container {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    color: green;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: 34px;
+}
+
+.increaseBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+.decreaseBtn {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.resetBtn {
+    background-color: #030403;
+    color: white;
+    padding: 20px;
+    border: none;
+
+}
+
+
+/* random number gernerator */
+.random-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: 28px;
+
+}
+
+.rollbtn {
+    background-color: yellow;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 25px;
+
+}

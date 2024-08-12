@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>My website</title>
+</head>
+
+<body>
+    <h1 id="myH1">Welcome</h1>
+    <label for="">username</label>
+    <input id="myinput" type="text">
+    <button id="mysubmit">submit</button>
+
+    <h1>Area of a circle</h1>
+    <label for="radius">Radius:</label>
+    <input type="text" id="radius">
+    <button id="radius-submit">Submit</button>
+    <h4 id="area-of-circle"></h4>
+
+    <!-- counter -->
+    <h1>Counter</h1>
+    <div class="container">
+        <div class="count-container">
+            <h2 id="mycount"></h2>
+        </div>
+        <div class="counter-container">
+            <button id="increase-count" class="increaseBtn">Increase</button>
+            <button id="reset-count" class="resetBtn">Reset</button>
+            <button id="decrease-count" class="decreaseBtn">Decrease</button>
+        </div>
+    </div>
+
+    <!-- random number generator -->
+    <h1>Random Number Generator</h1>
+    <div class="random-container">
+        <button id="rollBtn" class="rollbtn">Roll</button>
+        <label id="label1"></label>
+        <label id="label2"></label>
+        <label id="label3"></label><br>
+        <p id="rollResult"></p>
+        <p id="count"></p>
+    </div>
+    <!-- if else condition -->
+    <div class="if-container" id="ifContainer">
+        <h1>
+            Enter your Age
+        </h1>
+        <input type="text" id="ifInput">
+        <button id="ifBtn">
+            Check
+        </button>
+        <p id="ifResult"></p>
+    </div>
+
+    <!-- checked -->
+    <div class="Checked">
+        <h1>Checked</h1>
+        <input type="checkbox" id="mycheckbox">
+        <label for="mycheckbox">Subscribe</label><br>
+        <input type="radio" id="paytm" name="card">
+        <label for="paytm">Paytm</label><br>
+        <input type="radio" id="paypal" name="card">
+        <label for="paypal">PayPal</label><br>
+        <input type="radio" id="mastercard" name="card">
+        <label for="mastercard">Mastercard</label><br>
+        <button id="checkBnt">Submit</button>
+        <p id="checkResult"></p>
+        <p id="radioResult"></p>
+    </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
