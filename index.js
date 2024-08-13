@@ -109,4 +109,36 @@ checkBtn.addEventListener('click', () => {
     else {
         radioResult.textContent = `You have not choose any payment methods`
     }
-})
+});
+
+// Switch case
+const day = document.getElementById('day');
+const SwitchSubmit = document.getElementById('SwitchSubmit');
+const switchResult = document.getElementById('switchResult');
+SwitchSubmit.addEventListener('click', () => {
+    switch (day.value) {
+        case 'monday':
+            switchResult.textContent = `Today is Monday : Order Pizza`
+            break;
+        case 'tuesday':
+            switchResult.textContent = `Today is Tuesday: Eat Mess Food`
+            break;
+        case 'wednesday':
+            switchResult.textContent = `Today is Wednesday:Order Biryani`
+            break;
+        case 'thursday':
+            switchResult.textContent = `Today is Thursday: Paneer and Pulao`
+            break;
+        case 'friday':
+            switchResult.textContent = `Today is Friday: Samosa in Breakfast`
+            break;
+        case 'saturday':
+            switchResult.textContent = `Today is Saturday: Go for Outing`
+            break;
+        case 'sunday':
+            switchResult.textContent = `Today is Sunday: Mess Special`
+            break;
+        default:
+            switchResult.textContent = `Invalid day: Please Check your Day`
+    }
+});

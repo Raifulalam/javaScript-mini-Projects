@@ -59,3 +59,15 @@ body {
     padding: 8px 25px;
 
 }
+
+/* switch-container */
+.switch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 40px;
+    background: #c4c4;
+
+}

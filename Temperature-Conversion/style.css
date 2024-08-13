@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 8px;
+    margin-top: 8px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 1px 1px 3px black, -1px -1px 3px black;
+}
