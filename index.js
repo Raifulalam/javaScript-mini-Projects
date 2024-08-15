@@ -142,3 +142,14 @@ SwitchSubmit.addEventListener('click', () => {
             switchResult.textContent = `Invalid day: Please Check your Day`
     }
 });
+//call backs
+
+hello(goodbye);
+function hello(callback) {
+    console.log("hello")
+    callback()
+
+}
+function goodbye() {
+    console.log("Goodbye!");
+}

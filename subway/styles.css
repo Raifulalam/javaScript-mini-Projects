@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(images/background.png);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    position: absolute;
+    top: 0%;
+    color: #bba31c;
+    background: #1e1c1c;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    border-bottom: 2px solid rgb(107, 57, 11);
+}
+
+p {
+    font-size: 20px;
+    position: absolute;
+    top: 60vh;
+    color: #fff;
+}
+
+.dino {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 40px;
+    height: 50px;
+    background: #333;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+#jump,
+#play,
+#playAgain {
+    font-size: larger;
+    padding: 12px 30px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 2px 2px 4px blue;
+}
+
+#play:hover,
+#jump:hover {
+    background-color: #444;
+    box-shadow: 2px 2px 4px rgb(172, 172, 223);
+}
+
+#playAgain:hover {
+    background-color: #5c7359;
+    box-shadow: 2px 2px 4px rgb(172, 172, 223);
+}
+
+.cactus {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 40px;
+    height: 50px;
+    /* background: #666; */
+    color: #fff;
+    text-align: right;
+}
+
+.score {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-size: 24px;
+    color: #f0ecec;
+}
