@@ -105,18 +105,3 @@ p {
 #timer {
     color: #fff;
 }
-
-@media screen and (max-width:1000px) {
-    .display {
-        left: 25%;
-    }
-
-    h4 {
-        font-size: small;
-        top: 47px;
-    }
-
-    .cactus {
-        height: 40px;
-    }
-}
