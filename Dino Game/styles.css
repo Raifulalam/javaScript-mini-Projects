@@ -30,7 +30,7 @@ body {
 
 h4 {
     position: absolute;
-    top: 35%;
+    top: 40px;
     right: 4%;
 }
 
@@ -44,7 +44,7 @@ p {
 .dino {
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    left: 30px;
     width: 40px;
     height: 50px;
     background: #333;
@@ -83,7 +83,6 @@ p {
     right: 0;
     width: 40px;
     height: 50px;
-    /* background: #666; */
     color: #fff;
     text-align: right;
 }
@@ -94,4 +93,30 @@ p {
     left: 20px;
     font-size: 24px;
     color: #f0ecec;
+}
+
+.display {
+    position: absolute;
+    left: 670px;
+    top: 220px;
+
+}
+
+#timer {
+    color: #fff;
+}
+
+@media screen and (max-width:1000px) {
+    .display {
+        left: 25%;
+    }
+
+    h4 {
+        font-size: small;
+        top: 47px;
+    }
+
+    .cactus {
+        height: 40px;
+    }
 }
