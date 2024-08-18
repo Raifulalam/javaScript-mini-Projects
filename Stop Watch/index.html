@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            margin: 0%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+            margin: 90px;
+        }
+
+        h1 {
+            text-align: center;
+            box-shadow: 2px 8px 10px black;
+        }
+
+        .timer {
+            font-size: 40px;
+            font-weight: bold;
+
+
+        }
+
+        .button {
+            height: 50px;
+
+        }
+
+        button {
+            width: 100px;
+            padding: 8px 20px;
+            margin-right: 12px;
+            font-size: large;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            transition: background-color .5s ease;
+        }
+
+        #start {
+            background-color: rgb(10, 172, 10);
+        }
+
+        #stop {
+            background-color: red;
+        }
+
+        #reset {
+            background-color: blue;
+        }
+
+        #start:hover {
+            background-color: rgba(29, 100, 29, 0.947);
+            box-shadow: 1px 2px 3px rgb(8, 155, 13);
+        }
+
+        #stop:hover {
+            background-color: rgba(183, 17, 17, 0.947);
+            box-shadow: 1px 2px 3px rgb(184, 21, 10);
+        }
+
+        #reset:hover {
+            background-color: rgba(36, 36, 179, 0.952);
+            box-shadow: 1px 2px 3px rgb(10, 38, 182);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="timer">
+            <h1 id="timer">00:00:00:00</h1>
+        </div>
+        <div class="button">
+            <button id="start" onclick="startTimer()">Start</button>
+            <button id="stop" onclick="stopTimer()">Stop</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
