@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Slider</title>
+</head>
+<style>
+    .slider {
+        position: relative;
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+
+
+    .slider img {
+        width: 500px;
+
+
+
+        display: none;
+
+    }
+
+    img.displaySlide {
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="slider">
+        <div class="slides">
+            <img src="./images/image1.jpg" alt="" class="slide">
+            <img src="./images/image2.jpg" alt="" class="slide">
+            <img src="./images/image3.jpg" alt="" class="slide">
+            <img src="./images/image4.jpg" alt="" class="slide">
+            <img src="./images/image5.jpg" alt="" class="slide">
+            <img src="./images/image6.jpg" alt="" class="slide">
+            <img src="./images/image7.jpg" alt="" class="slide">
+        </div>
+        <button id="prev" onclick="prevSlide()">
+            < </button>
+                <button id="next" onclick="nextSlide()">></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

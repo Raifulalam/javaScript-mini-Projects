@@ -153,3 +153,14 @@ function hello(callback) {
 function goodbye() {
     console.log("Goodbye!");
 }
+
+// Error Handling
+
+try {
+    const num = 0 / 5;
+    console.log(nun);
+}
+catch (error) {
+    console.error(error);
+}
+console.log("still i am working!")
